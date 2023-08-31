@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="shortcut icon" href="./pngtree-beauty-care-logo-png-image_5773807.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+<body>
+        <!--------------------------------- navbar start ------------------------------------->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img style="height: 60px;"
+                      src="../pngtree-beauty-care-logo-png-image_5773807.png" alt="SIMPLON logo"> SIMPLON'S</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" href="../Aboutus/about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="../gallery.html">Gallery</a>
+                  </li>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        All Categories
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item " href="../hair/shampoo.html">Hair</a></li>
+                        <li><a class="dropdown-item" href="#">Skin</a></li>
+                        <li><a class="dropdown-item" href="#">Nail Paint</a></li>
+                        <li><a class="dropdown-item" href="#">Nail Art</a></li>
+                        <li><a class="dropdown-item" href="../Makeup/makeup.html">MakeUp</a></li>
+                        <li><a class="dropdown-item" href="../jewellery/jewellery.html">Jwellery</a></li>
+                        <li><a class="dropdown-item" href="../weddingkits/wedding.html">Wedding Kits</a></li>
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">UpComing Products</a></li>
+                    </ul>
+                </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" href="./contact us.html">Contact Us</a>
+                  </li>
+              </ul>
+                  <div class="d-flex ms-auto">
+                        <div class="container-fluid mt-3">
+                          <button class="btn">
+                            <a href="../LoginPage/login.html"><i class="fa-solid fa-user" style="color: whitesmoke;"></i></a>
+                          </button>
+                          <button class="btn" type="favourite">
+                              <i class="fa-regular fa-heart"style="color: whitesmoke;"></i>
+                          </button>
+                          
+                            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                              <i class="fa-sharp fa-solid fa-cart-shopping"style="color: whitesmoke;"></i>
+                            </button>
+                        </div>
+                      </div>
+                  <!-- <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-but">
+                          <a class="btn btn-outline-light" href="#">SignUp</a>
+                      </li>
+                      <li class="nav-but">
+                          <a class="btn btn-outline-light" href="#">Login</a>
+                      </li>
+                  </ul> -->
+              </div>
+          </div>
+      </nav>
+  
+      <div class="offcanvas offcanvas-end text-bg-dark" id="demo">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title">Shopping Card</h1>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="canvas-box">
+            <div class="card">
+              <div class="card-body">
+                <img height="300" class="gallery-image" src="../photos/nail paint (black) product.jpg" alt="">
+                
+                <br>
+                <br>
+
+                <h5 class="card-title">Gold Ear Ring</h5>
+                <span>Subtotal</span>
+                <p class="card-text">PKR 17,198.00</p>
+                <a href="../checkout.html"><button class="btn btn-outline-dark" type="button">Checkout</button></a>
+                <a href="#"><button class="btn btn-secondary" type="button">View Card</button></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+      <!-- <div class="container-fluid mt-3">
+        <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+          <i class="fa-sharp fa-solid fa-cart-shopping"style="color: whitesmoke;"></i>
+        </button>
+      </div> -->
+      
+      <!------------------------------- navbar end ------------------------------------>
+
+
+    <div class="main">
+    <div class="container">
+        <div id="box" class="frame">
+            <div class="nav">
+                <ul class="links">
+                    <!-- <li class=" text-center"><a id="head" class="btn">Login</a></li> -->
+                    
+                
+                <p id="head" class="signin-active text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Login</p>
+            </ul>
+            </div>
+            <div ng-app ng-init="checked = false">
+                <form class="form-signin" action="" method="post" name="form"> 
+                     
+                    <label id="email" for="dlno">Email</label> 
+                    <input class="form-style" type="email" name="email" placeholder="" required />
+                     <label id="password" for="password">Password</label>
+                      <input class="form-style" type="password" name="password" placeholder="" required min="8" />
+                       <input type="checkbox" id="checkbox" /> 
+                       
+                       
+                    <div class="btn-animate"> <a class="btn-signin" style="color: whitesmoke;">Login to your account</a> </div>
+                    <br><br><br><br>
+                    <p id="sign" class="link">Don't have an account? <a href="../SignUp/Signup.html">Sign Up</a></p>
+                </form>
+                <form class="form-signup" action="" method="post" name="form"> 
+                   
+                </form>
+                <div class="success"> <svg width="270" height="270" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" id="check" ng-class="checked ? 'checked' : ''">
+                        <path fill="#ffffff" d="M40.61,23.03L26.67,36.97L13.495,23.788c-1.146-1.147-1.359-2.936-0.504-4.314 c3.894-6.28,11.169-10.243,19.283-9.348c9.258,1.021,16.694,8.542,17.622,17.81c1.232,12.295-8.683,22.607-20.849,22.042 c-9.9-0.46-18.128-8.344-18.972-18.218c-0.292-3.416,0.276-6.673,1.51-9.578" />
+                        
+                </div>
+            </div>
+            <div class="forgot"> <a id="forget" href="#">Forgot your password?</a> </div>
+            <div>
+                <div class="cover-photo"></div>
+                <div class="profile-photo"></div>
+                <h1 class="welcome">Welcome,User</h1> <a class="btn-goback" value="Refresh" href="../index.html" >Go To Home Page</a>
+            </div>
+        </div> <a id="refresh" value="Refresh" onClick="history.go()"> <svg class="refreshicon" version="1.1" id="Capa_1" x="0px" y="0px" width="25px" height="25px" viewBox="0 0 322.447 322.447" style="enable-background:new 0 0 322.447 322.447;" xml:space="preserve">
+                <path d="M321.832,230.327c-2.133-6.565-9.184-10.154-15.75-8.025l-16.254,5.281C299.785,206.991,305,184.347,305,161.224 c0-84.089-68.41-152.5-152.5-152.5C68.411,8.724,0,77.135,0,161.224s68.411,152.5,152.5,152.5c6.903,0,12.5-5.597,12.5-12.5 c0-6.902-5.597-12.5-12.5-12.5c-70.304,0-127.5-57.195-127.5-127.5c0-70.304,57.196-127.5,127.5-127.5 c70.305,0,127.5,57.196,127.5,127.5c0,19.372-4.371,38.337-12.723,55.568l-5.553-17.096c-2.133-6.564-9.186-10.156-15.75-8.025 c-6.566,2.134-10.16,9.186-8.027,15.751l14.74,45.368c1.715,5.283,6.615,8.642,11.885,8.642c1.279,0,2.582-0.198,3.865-0.614 l45.369-14.738C320.371,243.946,323.965,236.895,321.832,230.327z" /> </svg> </a>
+    </div>
+
+</div>
+
+<!----------------------------- Footer start -------------------------------->
+    <!-- Footer -->
+    <div id="foot">
+<footer class="foot text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4 justify-content-center">
+        <h5 class="text-uppercase">Follow us</h5>
+  
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://web.facebook.com/?_rdc=1&_rdr" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a> -->
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.instagram.com/?hl=en" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a> -->
+        
+      </section>
+      <!-- Section: Social media -->
+  
+  
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          <span id="bold">SIMPLON’s Beauty care</span> centre is very big shop of cosmetics and accessories in the
+          city.Simplon product is known for their quality of the service which they are
+          providing since 1985. In order to advertize about the company and also to start
+          online services the company wishes to make the website of the company.
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row footer-links">
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Trending Searches</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="../Makeup/makeup.html" class="text-white footer-links">MakeUp</a>
+              </li>
+              <br>
+            
+              <li>
+                <a href="#!" class="text-white">Nail Paint</a>
+              </li>
+              <br>
+              <li>
+                <a href="../weddingkits/wedding.html" class="text-white">Wedding Kits</a>
+              </li>
+              <br>
+              <li>
+                <a href="../jewellery/jewellery.html" class="text-white">Jwellery</a>
+              </li>
+              <br>
+              <li>
+                <a href="#" class="text-white">Skin care</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Information</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="./contact us.html" class="text-white">Contact Us</a>
+              </li>
+              <br>
+              <li>
+                <a href="../faqs.html" class="text-white">FAQs</a>
+              </li>
+              <br>
+              <li>
+                <a href="../Aboutus/about.html" class="text-white">About Us</a>
+              </li>
+              <br>
+              <li>
+                <a href="../faqs.html" class="text-white">Privacy & Cookies</a>
+              </li>
+              <br>
+              <li>
+                <a href="../faqs.html" class="text-white">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="../feedback.html" class="text-white">Feedback</a>
+              </li>
+              <br>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="../index.html">Simplon's Beauty Care</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</div>
+  <!-- Footer -->
+  
+  <!------------------------ Footer start end------------>
+
+    <script src="./index.js"></script>
+</body>
+</html>

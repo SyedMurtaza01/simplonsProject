@@ -1,0 +1,115 @@
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+}
+body{
+  background-color: black !important;
+  color: whitesmoke !important;
+}
+@media (min-width: 560px) and (max-width: 740px) {
+
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 500px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 500px;
+  }
+}
+
+#heading1{
+  display: flex;
+  align-items: center;
+  }
+  #heading1::before, #heading1::after{
+  flex: 1;
+  content: " ";
+  height: 1px;
+  background: whitesmoke;
+  }
+
+  
+#heading{
+  display: flex;
+  align-items: center;
+  }
+  #heading::before, #heading::after{
+  flex: 1;
+  content: " ";
+  height: 1px;
+  background: black;
+  }
+/************************** navbar start *******************/
+.navbar .navbar-nav .nav-item a{
+  padding: 15px !important;
+}
+.navbar .navbar-nav .nav-but{
+  padding: 5px !important;
+}
+#logo-name{
+  font-size: 25px;
+  color: rgb(225, 21, 99);
+}
+#logo-name2{
+  font-size: 20px;
+}
+.s-font{
+  font-size: 30px !important;
+}
+.nav-link:hover{
+  color: rgb(248, 5, 98) !important;
+}
+.s-font:hover{
+  color: rgb(225, 21, 99) !important;
+}
+/**************************** navbar end ***************************/
+
+/*********************** footer start ***************************/
+.white{
+  color: whitesmoke;
+}
+.footer-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+ul{
+  color: whitesmoke;
+}
+li{
+  list-style: none;
+}
+
+.btn:hover{
+  background-color: rgb(225, 21, 99)  !important;
+  color: whitesmoke !important;
+}
+#bold{
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer-links{
+  
+  justify-content: center;
+  align-items: center;
+}
+
+   /* footer end  */
+   #prod{
+    height: 350px;
+   }
+   /* #about{
+    font-size: 20px;
+   } */
